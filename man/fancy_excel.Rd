@@ -4,12 +4,14 @@
 \alias{fancy_excel}
 \title{fancy_excel}
 \usage{
-fancy_excel(data, title = "Title")
+fancy_excel(data, title = "Title", source = "Quelle:")
 }
 \arguments{
 \item{data}{A dataframe}
 
 \item{title}{Title for the sheet to be added}
+
+\item{source}{Quellenangabe hinzufuegen}
 }
 \value{
 
