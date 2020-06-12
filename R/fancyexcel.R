@@ -12,7 +12,7 @@
 #' df <- datasets::swiss
 #' fancy_excel(head(df), title = "My fancy title")
 
-fancy_excel <- function(data , title="Title") {
+fancy_excel <- function(data , title = "Title") {
 
   # Workbook erstellen
   wb <- openxlsx::createWorkbook("workbook")
