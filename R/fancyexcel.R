@@ -1,12 +1,14 @@
-#' Add data to an Excel file
+#' Title
 #'
-#' @param x A data frame
+#' @param data A dataframe
+#' @param title Title for the sheet to be added
+#'
+#' @return
+#' @export
 #'
 #' @examples
 #' df <- dataset::swiss
-#' fancy_excel(head(df))
-#'
-#'
+#' fancy_excel(head(df), title = "My fancy title")
 
 fancy_excel <- function(data , title="Title") {
 
@@ -38,6 +40,3 @@ fancy_excel <- function(data , title="Title") {
 
 
 }
-
-
-fancy_excel(head(mtcars))
