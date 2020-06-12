@@ -2,7 +2,7 @@
 % Please edit documentation in R/fancyexcel.R
 \name{fancy_excel}
 \alias{fancy_excel}
-\title{Title}
+\title{fancy_excel}
 \usage{
 fancy_excel(data, title = "Title")
 }
@@ -15,9 +15,9 @@ fancy_excel(data, title = "Title")
 
 }
 \description{
-Title
+Let's you write a dataframe to excel
 }
 \examples{
-df <- dataset::swiss
+df <- datasets::swiss
 fancy_excel(head(df), title = "My fancy title")
 }
