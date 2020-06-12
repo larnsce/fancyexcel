@@ -2,19 +2,22 @@
 % Please edit documentation in R/fancyexcel.R
 \name{fancy_excel}
 \alias{fancy_excel}
-\title{Add data to an Excel file}
+\title{Title}
 \usage{
 fancy_excel(data, title = "Title")
 }
 \arguments{
-\item{x}{A data frame}
+\item{data}{A dataframe}
+
+\item{title}{Title for the sheet to be added}
+}
+\value{
+
 }
 \description{
-Add data to an Excel file
+Title
 }
 \examples{
 df <- dataset::swiss
-fancy_excel(head(df))
-
-
+fancy_excel(head(df), title = "My fancy title")
 }
